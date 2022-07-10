@@ -8,7 +8,8 @@ const Father = styled.div`
 function App() {
   return (
     <Father>
-      <Box></Box>
+      <Box bgColor="blue" text="박스1"></Box>
+      <Box bgColor="red" text="박스2"></Box>
     </Father>
   );
 }
