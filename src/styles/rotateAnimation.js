@@ -1,6 +1,6 @@
 import { keyframes } from "styled-components";
 
-export const rotateAnimation = keyframes`
+const rotateAnimation = keyframes`
 0% {
   transform: rotate(0deg);
   border-radius: 0px;
@@ -14,3 +14,5 @@ export const rotateAnimation = keyframes`
   border-radius: 0px;
 }
 `;
+
+export default rotateAnimation;

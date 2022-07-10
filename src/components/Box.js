@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { rotateAnimation } from "../styles/rotateAnimation";
+import rotateAnimation from "../styles/rotateAnimation";
 
 const StyledBox = styled.div`
   height: 100px;
