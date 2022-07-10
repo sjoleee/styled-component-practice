@@ -12,7 +12,10 @@ const StyledBox = styled.div`
   align-items: center;
   justify-content: center;
   span {
-    font-size: 50px;
+    font-size: 15px;
+    &:hover {
+      font-size: 30px;
+    }
   }
 `;
 
