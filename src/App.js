@@ -12,15 +12,15 @@ const Box = styled.div`
   height: 100px;
 `;
 
-const Text = styled.h2`
-  color: white;
+const Circle = styled(Box)`
+  border-radius: 50px;
 `;
 
 function App() {
   return (
     <Father>
       <Box bgColor="teal"></Box>
-      <Box bgColor="tomato"></Box>
+      <Circle bgColor="black"></Circle>
     </Father>
   );
 }
