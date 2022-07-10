@@ -11,6 +11,9 @@ const StyledBox = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  span {
+    font-size: 50px;
+  }
 `;
 
 function Box(props) {
