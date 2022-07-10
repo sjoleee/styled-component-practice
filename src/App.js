@@ -1,21 +1,14 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+import Box from "./components/Box.js";
 
 const Father = styled.div`
   display: flex;
 `;
 
-const Input = styled.input.attrs({ required: true, minLength: 10 })`
-  background-color: blue;
-`;
-
 function App() {
   return (
     <Father>
-      <Input></Input>
-      <Input></Input>
-      <Input></Input>
-      <Input></Input>
-      <Input></Input>
+      <Box></Box>
     </Father>
   );
 }
