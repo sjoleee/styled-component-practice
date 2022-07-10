@@ -3,6 +3,10 @@ import Box from "./components/Box.js";
 
 const Father = styled.div`
   display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
 `;
 
 function App() {
